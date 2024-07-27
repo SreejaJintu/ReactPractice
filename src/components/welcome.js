@@ -1,11 +1,15 @@
 import React from 'react'
 import './welcome.css'
+import InputData from './InputData'
 
-function welcome() {
+function Welcome() {
+  console.log('welcome')
   return (
-    <div> Welcome to React JS</div>
-    
+    <div className='welcome'>
+      Welcome  :
+      <InputData/>
+      </div>
   )
 }
 
-export default welcome
+export default Welcome
